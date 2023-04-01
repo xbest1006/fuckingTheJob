@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-01T12:57:10.085Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="BD7AQmbvbwDcfyjHrZzY" version="21.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-01T13:51:21.124Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="xNrmlU3WyvJI-JvNcKWi" version="21.1.2" type="github">
   <diagram name="第 1 页" id="qrGfPf-aeengtXoMOfv2">
     <mxGraphModel dx="1050" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,10 +11,10 @@
           <mxGeometry x="160" y="310" width="210" height="270" as="geometry" />
         </mxCell>
         <mxCell id="f1KtcB2TfzBb43k71ozX-1" value="堆&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="155" width="250" height="120" as="geometry" />
+          <mxGeometry x="160" y="155" width="270" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="f1KtcB2TfzBb43k71ozX-2" value="方法区&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="155" width="120" height="120" as="geometry" />
+        <mxCell id="f1KtcB2TfzBb43k71ozX-2" value="方法区（永久代/元空间）&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="153.5" width="140" height="120" as="geometry" />
         </mxCell>
         <mxCell id="f1KtcB2TfzBb43k71ozX-3" value="程序计数器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="185" y="360" width="160" height="60" as="geometry" />
@@ -37,8 +37,8 @@
         <mxCell id="f1KtcB2TfzBb43k71ozX-10" value="老年代" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
           <mxGeometry x="185" y="235" width="185" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="f1KtcB2TfzBb43k71ozX-14" value="永久代/元空间" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
-          <mxGeometry x="460" y="220" width="100" height="35" as="geometry" />
+        <mxCell id="f1KtcB2TfzBb43k71ozX-14" value="类信息" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+          <mxGeometry x="470" y="200" width="100" height="35" as="geometry" />
         </mxCell>
         <mxCell id="f1KtcB2TfzBb43k71ozX-16" value="线程2&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="310" width="210" height="270" as="geometry" />
@@ -54,6 +54,15 @@
         </mxCell>
         <mxCell id="f1KtcB2TfzBb43k71ozX-22" value="线程共有" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="330" y="80" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f1KtcB2TfzBb43k71ozX-25" value="静态变量" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="364" y="190" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f1KtcB2TfzBb43k71ozX-26" value="Class对象" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="361" y="230" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f1KtcB2TfzBb43k71ozX-27" value="运行时常量池" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+          <mxGeometry x="470" y="240" width="100" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
